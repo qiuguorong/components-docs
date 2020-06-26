@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+  <script src="http://res.winbaoxian.com/autoUpload/common/app-bridge-5_4_0-a157cf116bbf18f91d0b_4473351659e49ec.js"></script>
+  <title>保险师组件库</title>
+</head>
+<body>
+  <button id="themeBxs">保险师主题</button>
+  <button id="themeBroker">微易经纪人主题</button>
+  <div id="app"></div>
+  <script>
+    window.onload = function() {
+      document.getElementById('themeBxs').addEventListener('click', function() {
+        window.themeUtil.setTheme()
+      })
+      document.getElementById('themeBroker').addEventListener('click', function() {
+        window.themeUtil.setTheme('broker')
+      })
+    }
+  </script>
+<script type="text/javascript" src="bxs-mobile.f8ace59e.js"></script></body>
+</html>
